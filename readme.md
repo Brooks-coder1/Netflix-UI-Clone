@@ -1,124 +1,115 @@
-# Netflix UI Clone (HTML & CSS)
+# Netflix UI Clone — Frontend Practice Project
 
-A responsive front‑end clone of the Netflix landing page built using only **HTML5 and CSS3**.
-The project recreates the structure, layout, typography, and visual hierarchy of a modern OTT platform landing page for learning and practice purposes.
-
----
-
-## 🚀 Purpose of the Project
-
-This project was created to strengthen understanding of:
-
-* Layout structuring
-* Flexbox and positioning
-* Layering (z‑index & overlays)
-* Responsive design
-* Real‑world UI replication
-
-The goal is not functionality but accurate visual reproduction of a professional website interface.
+A pixel‑inspired recreation of the Netflix landing page interface built using **pure HTML5 and CSS3**.
+This project focuses on understanding how production‑level landing pages are structured, layered, and made responsive without relying on frameworks or JavaScript.
 
 ---
 
-## 🛠 Tech Stack
+## 🎯 Project Objective
 
-* HTML5
-* CSS3
-* Google Fonts (Poppins)
+The purpose of this project is to reverse‑engineer a real commercial website UI in order to develop strong core front‑end fundamentals.
+Instead of using libraries, the layout is handcrafted to deeply understand browser rendering behavior and layout mechanics.
 
-No JavaScript or frameworks were used.
+Key learning goals:
 
----
-
-## ✨ Features Implemented
-
-* Hero banner section with overlay
-* Navigation bar with language & sign‑in buttons
-* Email call‑to‑action form
-* Multiple feature sections with media elements
-* Embedded videos inside device frames
-* FAQ accordion styled blocks (static)
-* Footer with multi‑column links
-* Fully responsive layout (mobile friendly)
+* Semantic HTML structuring
+* Layout architecture
+* Visual hierarchy reproduction
+* CSS positioning & stacking contexts
+* Responsive design principles
 
 ---
 
-## 📂 Folder Structure
+## 🧰 Technology Stack
+
+| Technology             | Usage                            |
+| ---------------------- | -------------------------------- |
+| HTML5                  | Page structure & semantics       |
+| CSS3                   | Layout, styling & responsiveness |
+| Google Fonts (Poppins) | Typography                       |
+
+> No frameworks • No JavaScript • No CSS libraries
+
+---
+
+## ✨ Implemented Components
+
+* Hero banner with dark overlay and call‑to‑action
+* Responsive navigation bar
+* Email subscription input section
+* Device media sections (TV, Mobile, Multi‑device)
+* Video rendered inside device frames using CSS positioning
+* Static FAQ blocks styled as interactive accordions
+* Multi‑column footer navigation
+* Mobile responsive layout
+
+---
+
+## 🧠 Core Concepts Practiced
+
+### Layering & Overlays
+
+Using absolute positioning and opacity to create cinematic background contrast.
+
+### Media Framing Technique
+
+Embedding video inside a device image using relative‑absolute positioning and percentage alignment.
+
+### Layout Systems
+
+Combination of Flexbox and Grid to replicate real product layout behavior.
+
+### Responsiveness
+
+Media queries convert horizontal sections into stacked mobile layout while preserving spacing rhythm.
+
+---
+
+## 📁 Project Structure
 
 ```
-project/
+Netflix-UI-Clone/
 │
 ├── index.html
 ├── style.css
 │
 └── item/
     ├── favicon.ico
-    ├── images/
-    │   ├── logo.svg
-    │   └── bg.jpg
+    └── images/
+        ├── logo.svg
+        └── bg.jpg
 ```
 
 ---
 
-## 🧠 Key Concepts Practiced
-
-### 1. Overlay Layering
-
-Dark overlay placed above background image using absolute positioning.
-
-### 2. Media Framing
-
-Video positioned inside TV image using relative‑absolute positioning technique.
-
-### 3. Responsive Design
-
-Media queries adjust layout from horizontal sections to stacked layout on small screens.
-
-### 4. Layout System
-
-Flexbox used for:
-
-* Navigation alignment
-* Hero centering
-* Feature sections
-* Footer grid
-
----
-
-## ▶️ How to Run
+## ▶ Running the Project
 
 1. Download or clone the repository
-2. Keep folder structure intact
-3. Open `index.html` in browser
+2. Maintain folder structure
+3. Open `index.html` in any modern browser
 
-No server or dependencies required.
-
----
-
-## 📸 Preview Sections
-
-* Hero landing banner
-* TV playback section
-* Download feature section
-* Multi‑device streaming section
-* Kids profile section
-* FAQ section
-* Footer links
+No build tools or dependencies required.
 
 ---
 
-## ⚠️ Disclaimer
+## 📚 What This Project Teaches
 
-This project is built **only for educational purposes**.
-All trademarks, brand assets, and media belong to their respective owners. This is not affiliated with or endorsed by Netflix.
+After completing this project you will understand:
+
+* How commercial landing pages are architected
+* How layering & z‑index actually works
+* How responsiveness is planned (not guessed)
+* How to convert designs into structured code
 
 ---
 
-## 📚 Learning Outcome
+## ⚠ Disclaimer
 
-After completing this project, you should understand how real production landing pages are structured and styled using pure CSS without frameworks.
+This project is created strictly for educational and portfolio purposes.
+All logos, media, and trademarks belong to their respective owners. No copyright infringement intended.
 
 ---
 
 ## 👨‍💻 Author
 
-Created as a front‑end practice project to improve real‑world UI development skills.
+Frontend practice project focused on mastering real‑world UI replication and layout engineering.
